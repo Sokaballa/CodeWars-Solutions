@@ -26,4 +26,3 @@ function spinWords(words){
       return (word.length > 4) ? word.split('').reverse().join('') : word;
     }).join(' ');
 }
-
